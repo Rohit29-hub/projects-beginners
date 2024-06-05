@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div>
+            <h1 id="contact_us">Contack Us</h1>
+        </div>
+        <form class="signup_form">
+            <div id="name_field_container_1">
+                <div class="fields-container">
+                    <label for="firstname"  class="field-label">Your name</label>
+                </div>
+                <div class="fields-container" id="name_field_container_2">
+                    <input class="input_field" type="text" id="firstname" name="firstname" placeholder="First name">
+                    <input class="input_field" type="text" id="lastname" name="lastname" placeholder="Last name">
+                </div>
+            </div>
+            <div class="fields-container">
+                <label for="email" class="field-label">Email Address</label>
+                <input class="input_field" type="email" name="email" id="email" placeholder="Eg. example@gamil.com">
+            </div>
+            <div class="fields-container">
+                <label for="phone" class="field-label">Phone Number</label>
+                <input class="input_field" type="text" name="phone" id="phone" placeholder="Eg.+1800000000">
+            </div>
+            <div class="fields-container">
+                <label for="message" class="field-label">Message</label>
+                <textarea class="input_field" name="message" id="message"  placeholder="Please enter your comments"></textarea>
+            </div>
+            <div class="fields-container" id="button_container">
+                <button id="submit_button">Submit <img src="./arrow.svg" alt=""></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
